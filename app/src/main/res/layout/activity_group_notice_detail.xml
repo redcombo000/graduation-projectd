@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--헤더-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerLayer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rlBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/common_padding"
+                android:src="@drawable/ic_arrow_black" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/group_info_01"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_200"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ContentsLayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_padding"
+        android:layout_marginTop="@dimen/common_padding"
+        android:layout_marginEnd="@dimen/common_padding"
+        app:layout_constraintTop_toBottomOf="@+id/headerLayer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="@dimen/common_padding"
+                android:layout_marginTop="@dimen/common_padding"
+                android:layout_marginEnd="@dimen/common_padding"
+                android:gravity="center_vertical"
+                tools:text="제목"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_400"
+                android:textSize="@dimen/text_size_18dp" />
+
+            <TextView
+                android:id="@+id/tvContents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/common_padding"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/common_padding"
+                android:layout_marginBottom="@dimen/common_padding"
+                android:textColor="@color/black"
+                android:gravity="top"
+                tools:text="내용"
+                android:minHeight="100dp"
+                android:textColorHint="@color/gray_400"
+                android:textSize="@dimen/text_size_14dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/replyLayer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        android:layout_marginStart="@dimen/common_padding"
+        android:layout_marginTop="@dimen/common_padding"
+        android:layout_marginEnd="@dimen/common_padding"
+        android:layout_marginBottom="@dimen/common_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContentsLayer">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constrainedHeight="true"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/etReply"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1"
+            android:background="#fafafa"
+            tools:itemCount="12"
+            tools:listitem="@layout/item_reply" />
+
+        <EditText
+            android:id="@+id/etReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_input_box"
+            android:hint="댓글을 작성해주세요."
+            android:inputType="textMultiLine"
+            android:maxLength="50"
+            android:minHeight="50dp"
+            android:paddingStart="10dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="70dp"
+            android:paddingBottom="3dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_400"
+            android:textSize="@dimen/text_size_14dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+            android:id="@+id/sendReply"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingStart="@dimen/common_padding"
+            android:paddingEnd="@dimen/common_padding"
+            android:src="@drawable/ic_message_reply"
+            app:layout_constraintBottom_toBottomOf="@+id/etReply"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/etReply" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

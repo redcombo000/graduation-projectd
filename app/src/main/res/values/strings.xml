@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">WorkCare</string>
+
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="login_01">관리와 소통을\n한번에</string>
+    <string name="login_02">이메일</string>
+    <string name="login_03">비밀번호</string>
+    <string name="login_04">회원가입</string>
+    <string name="login_05">아이디 찾기</string>
+    <string name="login_06">비밀번호 찾기</string>
+    <string name="login_07">로그인</string>
+
+    <string name="sign_up_01">이메일</string>
+    <string name="sign_up_02">비밀번호</string>
+    <string name="sign_up_03">비밀번호 확인</string>
+    <string name="sign_up_04">휴대폰 번호</string>
+    <string name="sign_up_05">이름</string>
+    <string name="sign_up_06">회원가입</string>
+
+    <string name="main_01">그룹</string>
+    <string name="main_02">마이페이지</string>
+
+    <string name="group_01">그룹</string>
+    <string name="group_02">아직 그룹이 없어요!</string>
+    <string name="group_03">그룹 생성 +</string>
+    <string name="group_04">그룹 이름</string>
+    <string name="group_05">그룹 생성</string>
+    <string name="group_06">할일</string>
+    <string name="group_07">전달사항</string>
+    <string name="group_08">그룹정보</string>
+
+    <string name="group_todo_01">할 일</string>
+    <string name="group_todo_02">미완료</string>
+    <string name="group_todo_03">완료</string>
+    <string name="group_todo_04">할 일 +</string>
+    <string name="group_todo_05">제목</string>
+    <string name="group_todo_06">내용 입력</string>
+    <string name="group_todo_07">반복 설정</string>
+    <string name="group_todo_08">오늘</string>
+    <string name="group_todo_09">매일</string>
+    <string name="group_todo_10">주간</string>
+    <string name="group_todo_11">월간</string>
+    <string name="group_todo_12">담당 멤버</string>
+    <string name="group_todo_13">마감 시간</string>
+    <string name="group_todo_14">사진 촬영 여부</string>
+    <string name="group_todo_15">저장</string>
+    <string name="group_todo_16">메모</string>
+    <string name="group_todo_17">완료</string>
+
+    <string name="group_info_01">그룹 정보</string>
+    <string name="group_info_02">초대</string>
+    <string name="group_info_03">그룹 삭제</string>
+
+    <string name="group_member_01">멤버 정보</string>
+    <string name="group_member_02">메세지</string>
+    <string name="group_member_03">긴급!</string>
+    <string name="group_member_04">완료한 체크리스트</string>
+    <string name="group_member_05">멤버 강퇴</string>
+
+    <string name="my_page_01">수정</string>
+    <string name="my_page_02">알림 설정</string>
+    <string name="my_page_03">메시지</string>
+    <string name="my_page_04">비밀번호 변경</string>
+    <string name="my_page_05">로그아웃</string>
+    <string name="my_page_06">회원 탈퇴</string>
+
+    <string name="my_info_modify_01">개인정보 수정</string>
+    <string name="my_info_modify_02">이름</string>
+    <string name="my_info_modify_03">이메일</string>
+    <string name="my_info_modify_04">휴대폰번호</string>
+    <string name="my_info_modify_05">수정완료</string>
+
+    <string name="alarm_setting_01">알람 설정</string>
+    <string name="alarm_setting_02">댓글 알림</string>
+    <string name="alarm_setting_03">메시지 알림</string>
+    <string name="alarm_setting_04">긴급 알림</string>
+
+    <string name="message_01">메세지</string>
+    <string name="message_02">답장</string>
+    <string name="message_03">삭제</string>
+
+</resources>

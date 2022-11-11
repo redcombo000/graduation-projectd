@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.15924628981157246" />
+        <entry key="app/src/main/res/drawable-v24/selector_button.xml" value="0.2465" />
+        <entry key="app/src/main/res/drawable-v24/selector_next_button_02.xml" value="0.2015" />
+        <entry key="app/src/main/res/drawable-v24/shape_input_box.xml" value="0.2465" />
+        <entry key="app/src/main/res/drawable/selector_group.xml" value="0.256" />
+        <entry key="app/src/main/res/drawable/selector_input_box.xml" value="0.2465" />
+        <entry key="app/src/main/res/drawable/selector_my_page.xml" value="0.256" />
+        <entry key="app/src/main/res/drawable/selector_next_button.xml" value="0.2465" />
+        <entry key="app/src/main/res/drawable/selector_phone_numer_box.xml" value="0.2465" />
+        <entry key="app/src/main/res/layout/activity_alarm_setting.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/activity_group_add.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/activity_group_create.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/activity_group_info.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/activity_group_notice.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_group_notice_detail.xml" value="0.3390625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4609375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_member_info.xml" value="0.3167719523111979" />
+        <entry key="app/src/main/res/layout/activity_message_list.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/layout/activity_my_info_modify.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_todo.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/layout/activity_todo_add.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/layout/activity_todo_detail.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/layout/dialog_message.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/layout/fragment_group.xml" value="0.3314814814814815" />
+        <entry key="app/src/main/res/layout/fragment_group_notice.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/fragment_my_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_group.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/layout/item_group_member.xml" value="0.24791666666666667" />
+        <entry key="app/src/main/res/layout/item_message.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/layout/item_notice.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/item_reply.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/layout/item_todo.xml" value="0.35833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
